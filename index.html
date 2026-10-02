@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev. Gawdat — Portfolio</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.1.14/swiper-bundle.min.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background layers -->
+    <div class="bg-red"></div>
+    <div class="grid-overlay"></div>
+    <div class="vignette"></div>
+
+    <!-- Top bar -->
+    <header class="topbar">
+        <div class="brand">Dev<span>.</span>Gawdat</div>
+        <a href="mailto:hello@simplecode.dev" class="topmail">hello@simplecode.dev</a>
+    </header>
+
+    <!-- Swiper -->
+    <div class="swiper main-swiper">
+        <div class="swiper-wrapper">
+
+            <!-- 01. INTRO -->
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="card-inner intro">
+                        <div class="avatar-wrap">
+                            <div class="ring"></div>
+                            <img src="https://i.postimg.cc/JzBWVhW4/my-avatar.png" alt="avatar" class="avatar">
+                        </div>
+
+                        <h1 class="name">Dev<span class="accent">.</span>Gawdat</h1>
+                        <p class="role">Web Developer &amp; UI Designer</p>
+                        <p class="loc">Cairo, Egypt</p>
+
+                        <div class="actions">
+                            <a href="mailto:hello@simplecode.dev" class="btn-primary">Get in Touch</a>
+                            <button class="btn-ghost" data-goto="4">See Work</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 02. ABOUT -->
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="card-inner">
+                        <span class="badge">01 — About</span>
+                        <h2 class="title">About Me</h2>
+                        <p class="text">
+                            I'm a Web Developer and UI/UX Designer passionate about building clean, functional and user-friendly websites. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+                        </p>
+                        <p class="text">
+                            My job is to build your website so it's functional and user-friendly but at the same time attractive. I add a personal touch to your product and make sure it's eye-catching and easy to use.
+                        </p>
+
+                        <div class="stats">
+                            <div class="stat">
+                                <strong>5+</strong>
+                                <span>Years</span>
+                            </div>
+                            <div class="stat">
+                                <strong>50+</strong>
+                                <span>Projects</span>
+                            </div>
+                            <div class="stat">
+                                <strong>30+</strong>
+                                <span>Clients</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 03. SERVICES -->
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="card-inner">
+                        <span class="badge">02 — Services</span>
+                        <h2 class="title">What I Do</h2>
+
+                        <div class="mini-grid">
+                            <div class="mini-card">
+                                <div class="mini-icon">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M12 19l7-7 3 3-7 7-3-3z"/>
+                                        <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/>
+                                        <path d="M2 2l7.586 7.586"/>
+                                        <circle cx="11" cy="11" r="2"/>
+                                    </svg>
+                                </div>
+                                <h3>Web Design</h3>
+                                <p>Modern, high-quality designs at a professional level.</p>
+                            </div>
+                            <div class="mini-card">
+                                <div class="mini-icon">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="16 18 22 12 16 6"/>
+                                        <polyline points="8 6 2 12 8 18"/>
+                                    </svg>
+                                </div>
+                                <h3>Development</h3>
+                                <p>Clean, performant code for sites of any scale.</p>
+                            </div>
+                            <div class="mini-card">
+                                <div class="mini-icon">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                        <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
+                                        <line x1="12" y1="18" x2="12.01" y2="18"/>
+                                    </svg>
+                                </div>
+                                <h3>Mobile Apps</h3>
+                                <p>Cross-platform apps for iOS and Android.</p>
+                            </div>
+                            <div class="mini-card">
+                                <div class="mini-icon">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+                                        <circle cx="12" cy="13" r="4"/>
+                                    </svg>
+                                </div>
+                                <h3>Photography</h3>
+                                <p>High-quality photos for products and portraits.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 04. SKILLS -->
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="card-inner">
+                        <span class="badge">03 — Skills</span>
+                        <h2 class="title">Skills</h2>
+
+                        <div class="skills">
+                            <div class="skill">
+                                <div class="skill-head">
+                                    <span>Web Design</span>
+                                    <span class="skill-pct">80%</span>
+                                </div>
+                                <div class="skill-track"><div class="skill-fill" data-fill="80"></div></div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-head">
+                                    <span>Graphic Design</span>
+                                    <span class="skill-pct">70%</span>
+                                </div>
+                                <div class="skill-track"><div class="skill-fill" data-fill="70"></div></div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-head">
+                                    <span>Branding</span>
+                                    <span class="skill-pct">90%</span>
+                                </div>
+                                <div class="skill-track"><div class="skill-fill" data-fill="90"></div></div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-head">
+                                    <span>WordPress</span>
+                                    <span class="skill-pct">50%</span>
+                                </div>
+                                <div class="skill-track"><div class="skill-fill" data-fill="50"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 05. WORK -->
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="card-inner">
+                        <span class="badge">04 — Work</span>
+                        <h2 class="title">Selected Work</h2>
+
+                        <div class="mini-grid">
+                            <a href="#" class="project">
+                                <div class="project-thumb"><img src="https://i.postimg.cc/qRHpHMyd/project-1.jpg" alt="Finance"></div>
+                                <div class="project-body">
+                                    <h3>Finance</h3>
+                                    <p>Web Development</p>
+                                </div>
+                            </a>
+                            <a href="#" class="project">
+                                <div class="project-thumb"><img src="https://i.postimg.cc/bNrcM2Wt/project-2.png" alt="Orizon"></div>
+                                <div class="project-body">
+                                    <h3>Orizon</h3>
+                                    <p>Web Development</p>
+                                </div>
+                            </a>
+                            <a href="#" class="project">
+                                <div class="project-thumb"><img src="https://i.postimg.cc/jSJVqYsq/project-3.jpg" alt="Fundo"></div>
+                                <div class="project-body">
+                                    <h3>Fundo</h3>
+                                    <p>Web Design</p>
+                                </div>
+                            </a>
+                            <a href="#" class="project">
+                                <div class="project-thumb"><img src="https://i.postimg.cc/dtpXxNGb/project-4.png" alt="Brawlhalla"></div>
+                                <div class="project-body">
+                                    <h3>Brawlhalla</h3>
+                                    <p>Applications</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 06. REVIEWS -->
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="card-inner">
+                        <span class="badge">05 — Reviews</span>
+                        <h2 class="title">What Clients Say</h2>
+
+                        <div class="reviews">
+                            <div class="review">
+                                <p>"Modern, clean and with a beautiful design. Got a lot of praises from colleagues."</p>
+                                <div class="review-author">
+                                    <img src="https://i.postimg.cc/zGDHfn3G/avatar-1.png" alt="Daniel">
+                                    <div>
+                                        <strong>Daniel Lewis</strong>
+                                        <span>CEO, Fintech</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review">
+                                <p>"An absolute pleasure to work with. Impressed with his attention to detail."</p>
+                                <div class="review-author">
+                                    <img src="https://i.postimg.cc/DwY0yHtx/avatar-2.png" alt="Jessica">
+                                    <div>
+                                        <strong>Jessica Miller</strong>
+                                        <span>Product Manager</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review">
+                                <p>"Couldn't be happier with the website. His creativity is unmatched."</p>
+                                <div class="review-author">
+                                    <img src="https://i.postimg.cc/fRFWhX9F/avatar-3.png" alt="Emily">
+                                    <div>
+                                        <strong>Emily Evans</strong>
+                                        <span>Designer</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 07. CONTACT -->
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="card-inner">
+                        <span class="badge">06 — Contact</span>
+                        <h2 class="title">Get in Touch</h2>
+
+                        <form class="form" data-form>
+                            <input type="text" name="name" placeholder="Your name" required class="form-input" data-input>
+                            <input type="email" name="email" placeholder="Email address" required class="form-input" data-input>
+                            <textarea name="message" placeholder="Your message" rows="3" required class="form-input" data-input></textarea>
+                            <button type="submit" class="btn-primary w-full" disabled data-submit>Send Message</button>
+                        </form>
+
+                        <div class="contact-alt">
+                            <a href="mailto:hello@simplecode.dev">hello@simplecode.dev</a>
+                            <span class="dot"></span>
+                            <a href="tel:+201234567890">+20 123 456 7890</a>
+                        </div>
+
+                        <div class="socials">
+                            <a href="#" aria-label="GitHub">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.1c-3.2.7-3.87-1.37-3.87-1.37-.52-1.34-1.28-1.7-1.28-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.18 1.18.92-.26 1.9-.39 2.88-.39s1.96.13 2.88.39c2.21-1.49 3.18-1.18 3.18-1.18.63 1.58.23 2.75.11 3.04.74.81 1.19 1.84 1.19 3.1 0 4.43-2.7 5.4-5.26 5.69.41.35.78 1.05.78 2.12v3.14c0 .31.21.67.8.55C20.21 21.39 23.5 17.08 23.5 12 23.5 5.65 18.35.5 12 .5z"/></svg>
+                            </a>
+                            <a href="#" aria-label="LinkedIn">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+                            </a>
+                            <a href="#" aria-label="Twitter">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 1.15h3.68l-8.04 9.19L24 22.85h-7.4l-5.8-7.58-6.63 7.58H.48l8.6-9.83L0 1.15h7.6l5.24 6.93 6.06-6.93zm-1.29 19.5h2.04L6.5 3.24H4.3l13.31 17.41z"/></svg>
+                            </a>
+                        </div>
+
+                        <p class="copyright">© 2024 SimpleCode</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Bottom bar -->
+    <footer class="bottombar">
+        <div class="progress-wrap">
+            <div class="progress-fill" data-progress></div>
+        </div>
+
+        <div class="nav-arrows">
+            <button class="nav-arrow" data-prev aria-label="Previous">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <button class="nav-arrow" data-next aria-label="Next">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+            </button>
+        </div>
+
+        <div class="counter">
+            <span data-current>01</span>
+            <span class="sep">/</span>
+            <span data-total>07</span>
+        </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.1.14/swiper-bundle.min.js"></script>
+    <script>
+        if (typeof Swiper === 'undefined') {
+            document.write('<script src="https://cdn.jsdelivr.net/npm/swiper@11.1.14/swiper-bundle.min.js"><\/script>');
+        }
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>
